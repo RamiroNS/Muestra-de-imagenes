@@ -1,0 +1,29 @@
+body{
+    background:linear-gradient(180deg, rgb(215, 235, 235),rgb(179, 250, 250)) ;
+}
+
+.dekstop{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 99vw;
+   height: 97vh;
+}
+
+.dekstop__img{
+    width:10px;
+    height: 97vh;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 0 7px;
+    flex-grow: 1;
+    transition: .7s;
+}
+
+.zoom{
+  width: 1200px;
+  border-radius: 0px;
+}
+
+
+
